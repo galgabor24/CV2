@@ -17,7 +17,6 @@ function App() {
         const heroRect = heroRef.current.getBoundingClientRect();
         const heroHeight = heroRect.height;
         const scrollPosition = -heroRect.top;
-        // Adjust the divisor to make the fade slower (increased from 2 to 1.5)
         const progress = Math.min(Math.max(scrollPosition / (heroHeight / 1.5), 0), 1);
         setScrollProgress(progress);
       }
@@ -28,11 +27,10 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-cosmic-900 via-cosmic-800 to-cosmic-900">
       <HeroBackground />
       <Header scrollProgress={scrollProgress} />
 
-      {/* Main Content */}
       <main className="relative snap-y snap-mandatory">
         <div ref={heroRef} className="h-[90vh] min-h-[700px]" />
         
