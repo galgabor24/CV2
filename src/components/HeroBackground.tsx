@@ -8,7 +8,7 @@ export default function HeroBackground() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("https://img.freepik.com/free-photo/futuristic-view-high-tech-earth-planet_23-2151100407.jpg?t=st=1732785117~exp=1732788717~hmac=ed49bfe4a0d6f90dbe872c43536397f73e8645872f6d0461f1f91f414b930a97&w=1380")',
+            backgroundImage: 'url("https://img.freepik.com/free-vector/abstract-techno-background-with-halftone-squares-sphere-shape_1048-6019.jpg?t=st=1732785341~exp=1732788941~hmac=3eb691124205d2e6a2e153bdca78ffefe8eecfc2785bbf4a107189424e468a14&w=1380")',
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-slate-900/40" />
