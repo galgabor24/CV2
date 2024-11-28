@@ -8,7 +8,7 @@ export default function HeroBackground() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("https://img.freepik.com/free-photo/workplace-office-with-laptop-coffee-dark-room-night_169016-47422.jpg?t=st=1732788287~exp=1732791887~hmac=7392526646e3ae3bb283ff82d7b0e59cd43748740f542ba9e1ad5486d75ab58e&w=1380")',
+            backgroundImage: 'url("https://images.pexels.com/photos/5496464/pexels-photo-5496464.jpeg")',
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-slate-900/40" />
